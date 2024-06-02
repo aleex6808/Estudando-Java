@@ -1,6 +1,6 @@
 compile = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"
-run = "java -classpath .:target/dependency/* MediaIfElse"
-entrypoint = "src/main/java/MediaIfElse.java"
+run = "java -classpath .:target/dependency/* AdivinheoNumero"
+entrypoint = "src/main/java/AdivinheoNumero.java"
 hidden = ["**/*.class"]
 
 [packager]
@@ -56,7 +56,7 @@ type = "request"
 
 [debugger.interactive.launchMessage.arguments]
 classPaths = ["."]
-mainClass = "MediaIfElse"
+mainClass = "AdivinheoNumero"
 
 [deployment]
 build = ["javac", "-classpath", ".:target/dependency/*", "-d", ".", "$(find . -type f -name '*.java')"]
