@@ -2,7 +2,7 @@
   Descrição: Implemente um jogo onde o programa escolhe um número aleatório
   entre 1 a 100 e o usuário tenta adivinhar o número. O programa deve
   fornecer dicas se o palpite do usuário está muito alto ou muito baixo.
-  O jogo continua até o usuário acerat o número.
+  O jogo continua até o usuário acertar o número.
 
 */
 
