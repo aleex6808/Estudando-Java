@@ -1,6 +1,6 @@
 compile = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"
-run = "java -classpath .:target/dependency/* cadastroDeAlunos"
-entrypoint = "src/main/java/cadastroDeAlunos.java"
+run = "java -classpath .:target/dependency/* concStrings"
+entrypoint = "src/main/java/concStrings.java"
 hidden = ["**/*.class"]
 
 [packager]
@@ -56,9 +56,16 @@ type = "request"
 
 [debugger.interactive.launchMessage.arguments]
 classPaths = ["."]
-mainClass = "cadastroDeAlunos"
+mainClass = "concStrings"
 
 [deployment]
-build = ["javac", "-classpath", ".:target/dependency/*", "-d", ".", "$(find . -type f -name '*.java')"]
+build = [
+  "javac",
+  "-classpath",
+  ".:target/dependency/*",
+  "-d",
+  ".",
+  "$(find . -type f -name '*.java')",
+]
 run = ["java", "-classpath", ".:target/dependency/*", "Main"]
 deploymentTarget = "cloudrun"
