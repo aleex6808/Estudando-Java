@@ -8,7 +8,7 @@ package Funções;
 
 import java.util.Scanner;
 
-class areaRetangulo{
+class AreaRetangulo{
   public static void
   main(String[] args){
     float largura, altura;
