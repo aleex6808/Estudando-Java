@@ -1,5 +1,5 @@
 /*Imprima os números de 1 a 10*/
-class umdez{
+class Umdez{
   public static void 
     main(String[] args) {
       int i = 1;
