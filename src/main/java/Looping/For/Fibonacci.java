@@ -4,7 +4,7 @@ Solicite ao usuário um número n e imprima os primeiros n números da sequênci
 
 import java.util.Scanner;
 
-public class fibonacci{
+public class Fibonacci{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o número de termos na sequência de Fibonacci: ");
