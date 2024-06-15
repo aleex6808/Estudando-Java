@@ -7,7 +7,7 @@ package Funções;
 
 import java.util.Scanner;
 
-class verificaPar {
+class VerificaPar {
   public static void main(String[] args) {
     int numero;
     Scanner entrada = new Scanner(System.in);
