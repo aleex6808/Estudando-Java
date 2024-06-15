@@ -4,7 +4,7 @@ Solicite ao usuário um número inteiro positivo e calcule o fatorial desse núm
 
 import java.util.Scanner;
 
-class fatorial{
+class Fatorial{
   public static void 
   main(String[] args){
     int numero, i, soma = 1;
