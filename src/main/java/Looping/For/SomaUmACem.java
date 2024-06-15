@@ -1,5 +1,5 @@
 //Calcular a soma dos números de 1 a 100.
-class somaUmACem{
+class SomaUmACem{
   public static void
   main(String[] args) {
     int soma = 0;
