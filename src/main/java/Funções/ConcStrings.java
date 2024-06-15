@@ -13,7 +13,7 @@ package Funções;
 
 import java.util.Scanner;
 
-class concStrings {
+class ConcStrings {
   public static void main(String[] args) {
     Scanner entrada = new Scanner(System.in);
     String mens1, mens2, mens3;
