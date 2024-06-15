@@ -11,7 +11,7 @@ Claro! Vamos criar um programa em Java que utiliza tanto estruturas de decisão 
 import java.util.Scanner; // Importa a biblioteca do Scanner..
 
 //Declaração de variáveis
-class cadastroDeAlunos {
+class CadastroDeAlunos {
   public static void main(String[] args) {
     Scanner entrada = new Scanner(System.in); 
     String[] alunos = new String[30];
