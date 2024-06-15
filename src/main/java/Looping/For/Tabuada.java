@@ -4,7 +4,7 @@ Solicite ao usuário um número inteiro e imprima a tabuada desse número de 1 a
 
 import java.util.Scanner;
 
-class tabuada {
+class Tabuada {
   public static void 
   main(String[] args) {
     int numero, resultado, i;
