@@ -1,6 +1,6 @@
 compile = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"
-run = "java -classpath .:target/dependency/* VerificaPrimo"
-entrypoint = "src/main/java/VerificaPrimo.java"
+run = "java -classpath .:target/dependency/* Limpa_Tela"
+entrypoint = "src/main/java/Limpa_Tela.java"
 hidden = ["**/*.class"]
 
 [packager]
@@ -56,7 +56,7 @@ type = "request"
 
 [debugger.interactive.launchMessage.arguments]
 classPaths = ["."]
-mainClass = "VerificaPrimo"
+mainClass = "Limpa_Tela"
 
 [deployment]
 build = [
