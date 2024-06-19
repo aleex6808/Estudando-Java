@@ -1,6 +1,6 @@
 compile = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"
-run = "java -classpath .:target/dependency/* Limpa_Tela"
-entrypoint = "src/main/java/Limpa_Tela.java"
+run = "java -classpath .:target/dependency/* SubsESplit"
+entrypoint = "src/main/java/SubsESplit.java"
 hidden = ["**/*.class"]
 
 [packager]
@@ -56,7 +56,7 @@ type = "request"
 
 [debugger.interactive.launchMessage.arguments]
 classPaths = ["."]
-mainClass = "Limpa_Tela"
+mainClass = "SubsESplit"
 
 [deployment]
 build = [

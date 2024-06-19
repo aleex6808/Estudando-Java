@@ -12,7 +12,7 @@ package Funções;
 
 import java.util.Scanner;
 
-class MaiorNumero{
+class Maior_Numero{
   public static void main(String[] args) {
     int n1, n2, n3;
     Scanner entrada = new Scanner(System.in);
