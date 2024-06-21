@@ -1,6 +1,6 @@
 compile = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"
-run = "java -classpath .:target/dependency/* Bubble_Sort"
-entrypoint = "src/main/java/Bubble_Sort.java"
+run = "java -classpath .:target/dependency/* SGT"
+entrypoint = "src/main/java/SGT.java"
 hidden = ["**/*.class"]
 
 [packager]
@@ -56,7 +56,7 @@ type = "request"
 
 [debugger.interactive.launchMessage.arguments]
 classPaths = ["."]
-mainClass = "Bubble_Sort"
+mainClass = "SGT"
 
 [deployment]
 build = [
