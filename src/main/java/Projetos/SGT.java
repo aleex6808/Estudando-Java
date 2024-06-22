@@ -28,11 +28,14 @@ Armazena as tarefas em uma lista (array list).
 import java.util.Scanner;
 
 class SGT {
+
+  public static int contTarefas = 0;
+  
   public static void main(String[] args) {
     final int TAM = 10;
     Scanner entrada = new Scanner(System.in);
     String[] tarefa = new String[TAM], descricao = new String[TAM];
-    int i = 0, opcao = 0, contTarefas = 0, atualizar = 0;
+    int i = 0, opcao = 0, atualizar = 0;
     int opcao2 = 0, excluir = 0;
     String novoTitulo, novaDescricao, aux;
     while (opcao != 7) {
@@ -41,32 +44,12 @@ class SGT {
       entrada.nextLine();
       switch (opcao) {
         case 1:
-          System.out.print("\nDigite o título da tarefa: ");
-          tarefa[i] = entrada.nextLine();
-          if (tarefa[i].equals("")) {
-            System.out.println("Erro!! Campo vazio..");
-            break;
-          }
-          System.out.print("\nDigite a descrição da tarefa: ");
-          descricao[i] = entrada.nextLine();
-          if (descricao[i].equals("")) {
-            System.out.println("Erro!! Campo vazio..");
-            break;
-          }
+          AdicionarTarefa(tarefa, descricao);
           i++;
-          contTarefas++;
           System.out.print("\nTarefa adicionada com sucesso!");
           break;
         case 2:
-          System.out.println("-----------------------------------------");
-          for (i = 0; i < contTarefas; i++) {
-            if (tarefa[i].equals("0")) {
-            } else {
-              System.out.println("\nTarefa " + (i + 1) + ": " + tarefa[i] + "");
-              System.out.println("Descrição " + (i + 1) + ": " + descricao[i] + "\n");
-            }
-          }
-          System.out.println("-----------------------------------------");
+          VisualizarTarefa(tarefa, descricao);
           break;
         case 3:
           System.out.println("\n1 - Atualizar o título ");
@@ -133,7 +116,7 @@ class SGT {
             }
           }
 
-          for (i = 0; i < contTarefas; i++){
+          for (i = 0; i < contTarefas; i++) {
             System.out.println("\n-----------------------------------------");
             System.out.println("\nTarefa " + (i + 1) + ": " + tarefa[i] + "");
             System.out.println("Descrição " + (i + 1) + ": " + descricao[i] + "\n");
@@ -164,5 +147,35 @@ class SGT {
     System.out.println(" 6 - Ordenar Alfabeticamente a lista ");
     System.out.println(" 7 - Sair");
     System.out.print("\n Digite aqui: ");
+  }
+
+  public static void AdicionarTarefa(String[] tarefa, String[] descricao) {
+    int i = 0;
+    Scanner entrada = new Scanner(System.in);
+    System.out.print("\nDigite o título da tarefa: ");
+    tarefa[i] = entrada.nextLine();
+    if (tarefa[i] != null && tarefa[i].equals("")) {
+      System.out.println("\nErro!! Campo vazio..\n");
+    }
+    System.out.print("\nDigite a descrição da tarefa: ");
+    descricao[i] = entrada.nextLine();
+    if (descricao[i] != null && descricao[i].equals("")) {
+      System.out.println("\nErro!! Campo vazio..\n");
+    } else {
+      contTarefas++;
+    }
+  }
+
+  public static void VisualizarTarefa(String[] tarefa, String[] descricao) {
+    int i = 0;
+    System.out.println("-----------------------------------------");
+    for (i = 0; i < contTarefas; i++) {
+      if (tarefa[i].equals("0")) {
+      } else {
+        System.out.println("\nTarefa " + (i + 1) + ": " + tarefa[i] + "");
+        System.out.println("Descrição " + (i + 1) + ": " + descricao[i] + "\n");
+      }
+    }
+    System.out.println("-----------------------------------------");
   }
 }
