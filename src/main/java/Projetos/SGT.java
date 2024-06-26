@@ -203,4 +203,8 @@ class SGT {
 		}
 		System.out.println("-----------------------------------------\n");
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5b63f8d (Alteração de arquivos e criação de nova pasta)
