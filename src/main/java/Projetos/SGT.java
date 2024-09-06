@@ -11,7 +11,7 @@ Excluir Tarefa: O usuário pode excluir uma tarefa.
 Buscar Tarefa: O usuário pode buscar uma tarefa pelo título.
 //Lembre de colocar mensagens ao usuário do resultado das ações feitas
 Estrutura do Projeto
-Classe Principal (SGT.java):
+Classe Principal (GerenciadorDeTarefas.java):
 
 Contém o método main e o loop principal do menu.
 Chama métodos de outras classes para realizar as operações.
@@ -203,8 +203,4 @@ class SGT {
 		}
 		System.out.println("-----------------------------------------\n");
 	}
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 5b63f8d (Alteração de arquivos e criação de nova pasta)
