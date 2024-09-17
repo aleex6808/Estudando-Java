@@ -1,0 +1,10 @@
+1: C Errei // B
+2: B Acertei
+3: B Acertei
+4: C Acertei
+5: A Acertei
+6: B Acertei
+7: C Acertei
+8: D Acertei
+9: D Errei // não programo em php
+10: B Acertei
