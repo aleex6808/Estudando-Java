@@ -1,0 +1,16 @@
+/* Como funcionam funções em java:
+Em Java, funções são conhecidas como métodos. Um método é um bloco de código que realiza uma tarefa específica. Métodos ajudam a organizar e reutilizar o código, tornando-o mais modular e legível.
+
+Estrutura de um método:
+
+A estrutura básica de um método em Java é o seguinte
+
+public static returnType
+methodName(parameters) {
+    // Corpo do método 
+}
+
+1.Modificadores de Acesso: Define quem pode acessar o método ( public, private, protected )
+2.Modificador static:Se presente, o 
+
+*/

@@ -1,10 +1,13 @@
 package Projeto_SGB;
 
+<<<<<<< HEAD
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.ResultSet;
 
+=======
+>>>>>>> 990e138cee44e4a19cc36469159d77557b9cdea9
 // Importa as bibliotecas
 
 import java.util.HashMap;
@@ -30,6 +33,7 @@ public class Biblioteca {
 	// Método de adicionar livro
 	
 	public void adicionarLivro(Livro livro) {
+<<<<<<< HEAD
 		
 
 		String sql = "INSERT INTO livros (titulo, autor, codigoISBN, quantidadeDisp) VALUES (?, ?, ? ,?) ;" ;
@@ -74,11 +78,23 @@ public class Biblioteca {
 			e.printStackTrace();
 		}
 		
+=======
+		livros.put(livro.getCodigoISBN(), livro); // Adiciona o livro ao Hashmap de livros
+
+		System.out.println("\nLivro " + livro.getTitulo() + " adicionado com sucesso! ");
+	}
+
+	// Método de remoover o livro
+	
+	public void removerLivro(String codigoISBN) {
+		livros.remove(codigoISBN);  // Remove o livro do Hashmap de livros
+>>>>>>> 990e138cee44e4a19cc36469159d77557b9cdea9
 	}
 
 	// Método de listar o livro
 	
 	public void listarLivros() {
+<<<<<<< HEAD
 		String sql = "SELECT titulo, autor, codigoISBN, quantidadeDisp FROM livros" ;
 		
 		try (Connection con = ConexaoDB.getConnection();
@@ -99,14 +115,29 @@ public class Biblioteca {
 			e.printStackTrace();
 		}
 		
+=======
+		if (!livros.isEmpty()) { // Caso a Hashmap de livros NÃO esteja vazia
+			for (Map.Entry<String, Livro> entrada : livros.entrySet()) { // Itera sobre o set de livros
+				System.out.println(entrada.getValue()); // Mostra os livros
+			}
+		} else { // Caso esteja vazia
+			System.out.println("Nenhum livro encontrado."); 
+		}
+>>>>>>> 990e138cee44e4a19cc36469159d77557b9cdea9
 	}
 
 	// Método de adicionar membro
 	
 	public void adicionarMembro(Membro membro) {
+<<<<<<< HEAD
 	
 		membros.put(membro.getIdMembro(), membro); // Adiciona o membro ao Hashmap de membros
 	
+=======
+
+		membros.put(membro.getIdMembro(), membro); // Adiciona o membro ao Hashmap de membros
+
+>>>>>>> 990e138cee44e4a19cc36469159d77557b9cdea9
 		System.out.println("\nMembro " + membro.getNome() + " adicionado com sucesso! "); 
 	}
 
