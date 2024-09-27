@@ -8,6 +8,8 @@ Rascunho:
 - Utiliza methods para os cálculos *
 */
 
+package Projetos;
+
 import java.util.Scanner;
 
 class CalculadoraSimples {

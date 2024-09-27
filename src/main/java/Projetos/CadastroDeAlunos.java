@@ -8,6 +8,8 @@ Claro! Vamos criar um programa em Java que utiliza tanto estruturas de decisão 
 4 - Exibir os alunos que possuem nota acima da média.
 5 - Sair do programa. */
 
+package Projetos;
+
 import java.util.Scanner; // Importa a biblioteca do Scanner..
 
 //Declaração de variáveis
