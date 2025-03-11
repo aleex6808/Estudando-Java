@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class Aula02TiposPrimitivos {
+public class Class02PrimitiveTypes {
     public static void main(String[] args) {
         //int, double, char, byte, short, long, boolean
         int idade = 10;

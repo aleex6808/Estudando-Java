@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class Aula06EstruturasdeRepeticao01 {
+public class Class04Operators {
     public static void main(String[] args) {
         //while, do while, for
         int count = 0;

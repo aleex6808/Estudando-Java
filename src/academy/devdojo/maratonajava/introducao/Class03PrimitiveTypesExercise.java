@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.introducao;
 
 
 
-public class Aula03TiposPrimitivosExercicio {
+public class Class03PrimitiveTypesExercise {
     public static void main(String[] args) {
         String nome = "Braulio";
         String endereco = "Rua da esquina com a quinta, 666";

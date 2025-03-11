@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class Aula06EstruturasdeRepeticao02 {
+public class Class05ConditionalStatement01 {
     public static void main(String[] args) {
         // Imprima todos os números pares de 0 até 1000000
 
