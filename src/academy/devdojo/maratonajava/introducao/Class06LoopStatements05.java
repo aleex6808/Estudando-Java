@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class ClassConditionalStatement05 {
+public class Class05ConditionalStatement05 {
     public static void main(String[] args) {
         // Dado o valor de um carro descubra em quantas vezes ele pode ser parcelado
         // condição: valor parcela >= 1000
