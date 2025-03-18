@@ -1,7 +1,7 @@
-package academy.devdojo.maratonajava.introducao;
+package academy.devdojo.javaoneforall.introduction;
 //Dado um determinado salario anual qual o valor de taxa que terá que ser pago?
 
-public class Aula05EstruturasCondicionais04 {
+public class Class05ConditionalStatements04 {
     public static void main(String[] args) {
         double salarioAnual = 70000;
         double taxaAnual;

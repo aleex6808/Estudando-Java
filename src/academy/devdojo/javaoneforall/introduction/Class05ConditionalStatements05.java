@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.introducao;
+package academy.devdojo.javaoneforall.introduction;
 
-public class Aula05EstruturasCondicionais05 {
+public class Class05ConditionalStatements05{
     public static void main(String[] args) {
         // Imprima o dia da semana, considerando 1 como domingo
         byte dia = 5;

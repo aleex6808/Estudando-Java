@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.introducao;
+package academy.devdojo.javaoneforall.introduction;
 
-public class Class05ConditionalStatement02 {
+public class Class05ConditionalStatements02 {
     public static void main(String[] args) {
         // idade < 15 categoria juvenil
         // idade >= 15 && idade <18 categoria juvenil

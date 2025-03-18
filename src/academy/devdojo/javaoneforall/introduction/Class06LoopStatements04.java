@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.introducao;
+package academy.devdojo.javaoneforall.introduction;
 
-public class Class05ConditionalStatement04 {
+public class Class06LoopStatements04 {
     public static void main(String[] args) {
         // Dado o valor de um carro descubra em quantas vezes ele pode ser parcelado
         // condição: valor parcela >= 1000
