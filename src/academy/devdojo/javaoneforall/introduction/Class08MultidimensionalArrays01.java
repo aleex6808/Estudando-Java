@@ -17,5 +17,13 @@ public class Class08MultidimensionalArrays01 {
             }
         }
 
+        System.out.println("-------------------------------");
+
+
+        for (int[] baseArray: days) {
+            for (int day : baseArray) {
+                System.out.println(day);
+            }
+        }
     }
 }
